@@ -13,6 +13,7 @@ export const Post = ({ username, caption, imageUrl }) => {
           alt="Remy Sharp"
           src="/static/images/avatar/1.jpg"
         />
+        
 
         <h3>Username</h3>
       </div>
