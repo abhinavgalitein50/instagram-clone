@@ -3,12 +3,16 @@ import "./Post.css";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import { Avatar } from "@mui/material";
 
-export const Post = () => {
+export const Post = ({ username, caption, imageUrl }) => {
   return (
     <div className="post">
       {/* header  --> avatar + username */}
       <div className="post__header">
-        <Avatar className="post__avatar" alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+        <Avatar
+          className="post__avatar"
+          alt="Remy Sharp"
+          src="/static/images/avatar/1.jpg"
+        />
 
         <h3>Username</h3>
       </div>

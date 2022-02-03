@@ -8,6 +8,7 @@
     object-fit: contain;
     border-top: 1px solid lightgrey;
     border-bottom: 1px solid lightgrey;
+    margin-bottom: 4.5rem;
 }
 
 .post__text{
